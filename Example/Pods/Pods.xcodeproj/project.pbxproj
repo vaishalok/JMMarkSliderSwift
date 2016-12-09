@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1165ECE04C66F121C83F2B594EE65553 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		26E06693D09AF1B17E5D0C100999CF28 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D5D876F7D7BD66A196516DFBB60131 /* ReplaceMe.swift */; };
 		461520BF0EEB05EFBAEACF7C459E14FB /* Pods-JMMarkSliderSwift_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF035D9526E67F668FACF9B2A27BA1D /* Pods-JMMarkSliderSwift_Tests-dummy.m */; };
 		59B6D031CC423E37F79F977CDC317A20 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		683AABB13939173E1CC3B962748C5252 /* JMMarkSliderSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03688DCC3CAD94B7B6BDFF9BC5FA371A /* JMMarkSliderSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFF47F491DFABDC30088133B /* JMMarkSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF47F481DFABDC30088133B /* JMMarkSlider.swift */; };
 		E1A590310164182D7AB1BA2C43FC358A /* JMMarkSliderSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48CE97E3A6E2B58021D2270BD0C894F5 /* JMMarkSliderSwift-dummy.m */; };
 		F0855D52E20541A883046F05DC119591 /* Pods-JMMarkSliderSwift_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A95E4551B2CE4A253C756CBC53A7865 /* Pods-JMMarkSliderSwift_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -29,7 +29,6 @@
 /* Begin PBXFileReference section */
 		02C2AFD68488149DB90A885AF20E9BE3 /* JMMarkSliderSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMMarkSliderSwift-prefix.pch"; sourceTree = "<group>"; };
 		03688DCC3CAD94B7B6BDFF9BC5FA371A /* JMMarkSliderSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JMMarkSliderSwift-umbrella.h"; sourceTree = "<group>"; };
-		38D5D876F7D7BD66A196516DFBB60131 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		48CE97E3A6E2B58021D2270BD0C894F5 /* JMMarkSliderSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JMMarkSliderSwift-dummy.m"; sourceTree = "<group>"; };
 		5D1A3B86D490A44B90F1BDBD1444459D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		650A07BC761E8108321FD0793F0E98A3 /* Pods-JMMarkSliderSwift_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JMMarkSliderSwift_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -45,6 +44,7 @@
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D27480BD60519C16A45136CDC10A4B2F /* JMMarkSliderSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JMMarkSliderSwift.xcconfig; sourceTree = "<group>"; };
 		DD70874F5ECD016ED2AAA5904D85A0CF /* Pods-JMMarkSliderSwift_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JMMarkSliderSwift_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DFF47F481DFABDC30088133B /* JMMarkSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JMMarkSlider.swift; sourceTree = "<group>"; };
 		E21AEBF1784879EBB6E193B3BB64FC67 /* JMMarkSliderSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JMMarkSliderSwift.modulemap; sourceTree = "<group>"; };
 		ED06BE7C6453F2862FEA1EBADB3B608F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAF7B1E5128887DF40D69F07FF1285DD /* Pods-JMMarkSliderSwift_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JMMarkSliderSwift_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -158,7 +158,7 @@
 		B5DA8D646C1BABE5ABE7D61675C7D980 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				38D5D876F7D7BD66A196516DFBB60131 /* ReplaceMe.swift */,
+				DFF47F481DFABDC30088133B /* JMMarkSlider.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -285,8 +285,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFF47F491DFABDC30088133B /* JMMarkSlider.swift in Sources */,
 				E1A590310164182D7AB1BA2C43FC358A /* JMMarkSliderSwift-dummy.m in Sources */,
-				26E06693D09AF1B17E5D0C100999CF28 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +343,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D27480BD60519C16A45136CDC10A4B2F /* JMMarkSliderSwift.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -495,6 +496,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D27480BD60519C16A45136CDC10A4B2F /* JMMarkSliderSwift.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";

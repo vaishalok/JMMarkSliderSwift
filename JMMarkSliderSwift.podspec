@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JMMarkSliderSwift'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JMMarkSliderSwift.'
+  s.summary          = 'Swift port of JMMarkSlider(https://github.com/joamafer/JMMarkSlider)'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,16 +17,13 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/JMMarkSliderSwift'
+  s.description      = 'Fully customizable slider that allows to set marks on it. You can set the color of the bar, marks and handler, the width of the marks and even an image for the handler.'
+  s.homepage         = 'https://github.com/vaishalok/JMMarkSliderSwift'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'vaishalok' => 'vaish.alok16@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/JMMarkSliderSwift.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/vaishalok/JMMarkSliderSwift.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/vaishalok16'
 
   s.ios.deployment_target = '8.0'
 
