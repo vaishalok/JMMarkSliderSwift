@@ -8,15 +8,15 @@
 
 import UIKit
 
-public class JMMarkSlider: UISlider {
+@IBDesignable public class JMMarkSlider: UISlider {
     
-    var markWidth           = 1.0
-    var markColor           = UIColor(redInt: 106, greenInt: 106, blueInt: 124, alpha: 0.7)
-    var selectedBarColor    = UIColor(redInt: 179, greenInt: 179, blueInt: 193, alpha: 0.8)
-    var unselectedBarColor  = UIColor(redInt: 55, greenInt: 55, blueInt: 94, alpha: 0.8)
-    var markPositions: [Float] = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
-    var handlerImage: UIImage!
-    var handlerColor: UIColor!
+    @IBInspectable var markWidth: Float             = 1.0
+    @IBInspectable var markColor: UIColor           = UIColor(redInt: 106, greenInt: 106, blueInt: 124, alpha: 0.7)
+    @IBInspectable var selectedBarColor: UIColor    = UIColor(redInt: 179, greenInt: 179, blueInt: 193, alpha: 0.8)
+    @IBInspectable var unselectedBarColor: UIColor  = UIColor(redInt: 55, greenInt: 55, blueInt: 94, alpha: 0.8)
+    @IBInspectable var markPositions: [Float]       = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+    @IBInspectable var handlerImage: UIImage!
+    @IBInspectable var handlerColor: UIColor!
     //    var cornerRadius:
     
     override public func draw(_ rect: CGRect) {
