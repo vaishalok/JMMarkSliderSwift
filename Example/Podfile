@@ -1,0 +1,6 @@
+use_frameworks!
+target 'JMMarkSliderSwift_Tests' do
+  pod 'JMMarkSliderSwift', :path => '../'
+  
+  
+end
