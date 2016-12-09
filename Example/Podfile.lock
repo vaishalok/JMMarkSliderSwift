@@ -1,0 +1,16 @@
+PODS:
+  - JMMarkSliderSwift (0.1.0)
+
+DEPENDENCIES:
+  - JMMarkSliderSwift (from `../`)
+
+EXTERNAL SOURCES:
+  JMMarkSliderSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JMMarkSliderSwift: 30438ebb8ca0882e1774ec13067d152545a5363d
+
+PODFILE CHECKSUM: 205a020c5d2c3e58936858e83fee1af456cc8ab8
+
+COCOAPODS: 1.1.1
