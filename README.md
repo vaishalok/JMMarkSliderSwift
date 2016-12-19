@@ -82,6 +82,8 @@ Here you can see a bunch of parameters that you can change:
 - `handlerColor`: UIColor - Customize the color of the handler.
 - `handlerImage`: UIImage  - Set a custom UIImage for the handler.
 
+## Demo Application
+https://github.com/vaishalok/JMMarkSliderSwiftSample
 
 ## Author
 vaishalok, vaish.alok16@gmail.com
