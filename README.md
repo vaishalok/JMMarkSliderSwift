@@ -33,18 +33,21 @@ Link it with the outlet property if you want to access its properties:
 @IBOutlet weak var firstSlider: JMMarkSlider!
 
 Simply customize it! (take a look at -Customization- section)
-
+```
 firstSlider.markColor = UIColor(white: 1, alpha: 0.5)
 firstSlider.markPositions = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
 firstSlider.markWidth = 1.0
 firstSlider.selectedBarColor = .gray
 firstSlider.unselectedBarColor = .black
+```
 
 #### Second way (Using code):
+```
 var secondSlider: JMMarkSlider!
+```
 
 Instantiate and customize it (again, take a look at -Customization- section). Finally add it to the desired view as usual:
-
+```
 secondSlider = JMMarkSlider()
 secondSlider.frame = CGRect(x: 0, y: 200, width: 284, height: 31)
 secondSlider.markColor = UIColor(white: 1, alpha: 0.5)
@@ -53,12 +56,14 @@ secondSlider.markWidth = 1.0
 secondSlider.selectedBarColor = .gray
 secondSlider.unselectedBarColor = .black
 view.addSubview(secondSlider)
+```
 
 Setting the marks
 ------------
 You can set the marks using a percentage system from 0 to 100. Set all the marks in the `markPositions array` property:
-
+```
 firstSlider.markPositions = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+```
 
 Customization
 ------------
